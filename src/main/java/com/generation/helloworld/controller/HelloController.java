@@ -12,5 +12,15 @@ public class HelloController {
 	public String hello() {
 		return "Hello Família 41!";
 	}
+	
+	@GetMapping ("/mentalidades")
+	public String mentalidades () {
+		return "A mentalidade que mais utilizei foi a de persistência. A habilidade foi de atenção aos detalhes";
+	}
+	
+	@GetMapping ("/objetivos")
+	public String objetivos () {
+		return "Meu objetivo de aprendizagem é ajudar ainda mais meu grupo de PI nas tasks, além de dominar tudo que for possível sobre STS";
+	}
 
 }
